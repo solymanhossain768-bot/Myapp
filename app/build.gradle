@@ -3,10 +3,10 @@ plugins {
     id 'kotlin-android'
 }
 android {
-    namespace 'com.solyman'
+    namespace 'cmm.solyman.earnbd'
     compileSdk 34
     defaultConfig {
-        applicationId 'com.solyman'
+        applicationId 'cmm.solyman.earnbd'
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -15,9 +15,9 @@ android {
     signingConfigs {
         release {
             storeFile file(project.rootDir.absolutePath + '/app/keystore.jks')
-            storePassword System.getenv('KEYSTORE_PASSWORD') ?: 'Katz@ork2fbuf!'
+            storePassword System.getenv('KEYSTORE_PASSWORD') ?: 'Katz@drohlr78!'
             keyAlias 'appkey'
-            keyPassword System.getenv('KEY_PASSWORD') ?: 'Katz@ork2fbuf!'
+            keyPassword System.getenv('KEY_PASSWORD') ?: 'Katz@drohlr78!'
         }
     }
     buildTypes {
