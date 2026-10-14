@@ -2,7 +2,7 @@
 
 Built with **KATZ APK MAKER PRO v3**.
 
-- Package: `com.solyman`
+- Package: `cmm.solyman.earnbd`
 - Version: 1.0 (1)
 - Min SDK: 21 (Android 5.0+)
 - Target SDK: 34
